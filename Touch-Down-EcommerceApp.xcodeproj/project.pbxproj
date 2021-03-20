@@ -60,10 +60,7 @@
 		E299E0CF260621C800B147C8 /* Touch-Down-EcommerceApp */ = {
 			isa = PBXGroup;
 			children = (
-				E299E0E32606239E00B147C8 /* brand.json */,
-				E299E0E22606239E00B147C8 /* category.json */,
-				E299E0E12606239E00B147C8 /* player.json */,
-				E299E0E02606239E00B147C8 /* product.json */,
+				E299E0E9260623D200B147C8 /* Data */,
 				E299E0D0260621C800B147C8 /* Touch_Down_EcommerceAppApp.swift */,
 				E299E0D2260621C800B147C8 /* ContentView.swift */,
 				E299E0D4260621C900B147C8 /* Assets.xcassets */,
@@ -79,6 +76,17 @@
 				E299E0D7260621C900B147C8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E299E0E9260623D200B147C8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E299E0E32606239E00B147C8 /* brand.json */,
+				E299E0E22606239E00B147C8 /* category.json */,
+				E299E0E12606239E00B147C8 /* player.json */,
+				E299E0E02606239E00B147C8 /* product.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
