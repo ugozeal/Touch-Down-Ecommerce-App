@@ -12,8 +12,11 @@ struct ContentView: View {
     
      //MARK: - Body
     var body: some View {
-        FooterView()
-            .padding(.horizontal)
+        VStack(spacing: 0) {
+            FooterView()
+                .padding(.horizontal)
+        }//: VSTACK
+        .background(backgroundColor)
     }
 }
 
